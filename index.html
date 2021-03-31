@@ -7,11 +7,34 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
     <title>CODE QUIZ</title>
 </head>
+<header>
+    <div id="highscore" class="header-container">
+        <!-- add linking in <a> tag to higscore HTML page. How do i link <a> tag to second HTML page -->
+        <a class="score-button">VIEW HIGHSCORES</a>
+    </div>
+    <div>
+        
+        <span id="timer"><p>.</p></span>
+    </div>
+</header>
 <body>
+    <!-- look up display(css prop) hide -->
+    <div class="container">
+      <div class="question" id="question">
+      </div>
 
-
-
-
+      <div id="answers">
+        <div class="answer answer1"></div>
+        <div class="answer answer2"></div>
+        <div class="answer answer3"></div>
+        <div class="answer answer4"></div>
+      </div>
+        <div id="home" class="flex-div">
+            <button id="button" class="button">START QUIZ</button>
+            <!-- onClick identifier, change to ID and look up why. -->
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
